@@ -1,0 +1,63 @@
+#d1{
+    
+    height: 580px;
+   background-image: linear-gradient(to top, rgb(37, 113, 212) ,rgb(81, 200, 247));
+}
+ /* #d2{
+    background-image: url(./para.png);
+    background-position: center;
+} */
+/* #d3{
+   background-color: black;
+}  */
+.col-6{
+    height: 470px;
+    background-image: linear-gradient(to bottom, rgb(37, 113, 212) ,rgb(81, 200, 247));
+
+}
+.col-4{
+    background-color: rgb(56, 124, 124);
+}
+hr{
+    color:white;
+}
+/* form-control ::input{
+    border: none;
+} */
+/* .input::placeholder {
+    color: red !important;
+    opacity: 1;
+    } */
+p{
+        margin:1;
+}
+#d3{
+        color: aliceblue;
+        font-size: 13px;
+}
+.no-border {
+        border: 0;
+        box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: aliceblue;
+    opacity: 25%; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: aliceblue;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: aliceblue;
+}    
+#d4, #d5,#d6,#d7{
+    color: black;
+}
+button{
+    border-color: aliceblue;
+}
+#d11{
+   
+    height: 200px;
+}
